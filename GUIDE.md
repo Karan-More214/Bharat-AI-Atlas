@@ -205,7 +205,7 @@ Power BI Desktop → **Get Data → MySQL database** → Server: `localhost`, Da
 
 Select: `languages`, `organizations`, `models`, `model_languages`, `model_snapshots`, `vw_language_coverage`, `vw_org_summary` → **Load**.
 
-*If the MySQL connector gives trouble:* use **Get Data → Text/CSV** on the files in `data/processed/` instead. The dashboard works the same.
+*If the MySQL connector gives trouble:* use **Get Data → Text/CSV** on the files in `data/powerbi/` instead. `run_pipeline.py` exports them from MySQL as its last step, or you can run `python src/export_for_powerbi.py` on its own. They include the same tables and views as above, so the dashboard works the same. After each pipeline run, click **Refresh** in Power BI.
 
 ### 7.2 Set up relationships (Model view)
 | From | To | Cardinality | Cross-filter |

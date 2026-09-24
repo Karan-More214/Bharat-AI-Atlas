@@ -1,5 +1,5 @@
 """
-Runs the full pipeline: collect -> clean -> load.
+Runs the full pipeline: collect -> clean -> load -> export CSVs for Power BI.
 Schedule this weekly (Windows Task Scheduler / cron) to build trend history.
 
 Usage:
@@ -27,4 +27,5 @@ if __name__ == "__main__":
         step("collect.py")
     step("clean.py")
     step("load_to_sql.py")
+    step("export_for_powerbi.py")
     print("\nPipeline finished. Refresh your Power BI report.")
