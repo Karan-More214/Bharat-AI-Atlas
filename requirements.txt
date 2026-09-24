@@ -1,0 +1,6 @@
+huggingface_hub>=0.24
+pandas>=2.0
+SQLAlchemy>=2.0
+PyMySQL>=1.1
+cryptography>=42.0
+python-dotenv>=1.0
