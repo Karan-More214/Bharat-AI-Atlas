@@ -128,4 +128,4 @@ Then run `sql/analysis.sql` in MySQL Workbench and open `dashboard/bharat_ai_atl
 - Track trends from weekly snapshots.
 
 ---
-**Author:** [Your Name] · [LinkedIn](https://linkedin.com/in/your-profile) <!-- TODO: fill in your name and LinkedIn --> · [GitHub](https://github.com/Karan-More214) · Data: [Hugging Face Hub](https://huggingface.co), Census of India 2011
+**Author:** Karan More · LinkedIn: www.linkedin.com/in/karan-more21 <!-- TODO: fill in your name and LinkedIn --> · GitHub: https://github.com/Karan-More214 · Data: [Hugging Face Hub](https://huggingface.co), Census of India 2011
