@@ -88,8 +88,8 @@ English is ignored, so an English + Marathi model counts as dedicated, but Llama
 
 ## ▶️ How to run
 ```bash
-git clone https://github.com/<your-username>/bharat-ai-atlas.git
-cd bharat-ai-atlas
+git clone https://github.com/Karan-More214/Bharat-AI-Atlas.git
+cd Bharat-AI-Atlas
 python -m venv venv && venv\Scripts\activate      # Mac/Linux: source venv/bin/activate
 pip install -r requirements.txt
 copy .env.example .env                             # add your HF token + MySQL credentials
@@ -123,4 +123,4 @@ Then run `sql/analysis.sql` in MySQL Workbench and open `dashboard/bharat_ai_atl
 - Track trends from weekly snapshots.
 
 ---
-**Author:** [Your Name] · [LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username) <!-- TODO: fill in your name and links --> · Data: [Hugging Face Hub](https://huggingface.co), Census of India 2011
+**Author:** [Your Name] · [LinkedIn](https://linkedin.com/in/your-profile) <!-- TODO: fill in your name and LinkedIn --> · [GitHub](https://github.com/Karan-More214) · Data: [Hugging Face Hub](https://huggingface.co), Census of India 2011
