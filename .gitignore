@@ -8,3 +8,4 @@ data/powerbi/
 !data/sample/*.csv
 .ipynb_checkpoints/
 dashboard/bharat_ai_atlas.pbix
+.claude/
